@@ -1,0 +1,13 @@
+body {font-family: Arial; background:#f4f6f9; margin:0; padding:20px;}
+.container {max-width:800px; margin:auto; background:#fff; padding:20px; border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.1);}
+h1{text-align:center;color:#333;}
+.section{margin:25px 0;}
+input, button{padding:10px;border-radius:6px;border:1px solid #ccc;margin-top:5px;margin-bottom:10px;width:100%; box-sizing:border-box;}
+button{background:#4CAF50;color:white;border:none;cursor:pointer;width:auto;margin-top:5px;}
+button:hover{background:#45a049;}
+ul{list-style:disc;margin-top:10px;padding-left:20px;}
+li{margin:5px 0;}
+.card{margin:10px 0;padding:12px;border-radius:8px;border:1px solid #ddd;background:#f9f9f9;}
+.correct{color:green;font-weight:bold;}
+.wrong{color:red;font-weight:bold;}
+.profile-img{width:40px;height:40px;border-radius:50%;margin-right:10px;vertical-align:middle;}
