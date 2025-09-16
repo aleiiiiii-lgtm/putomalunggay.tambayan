@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PutoMalunggay.Tambayan</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="assets/default-avatar.png" type="image/png">
+</head>
+<body>
+<div class="container">
+<h1>🍽️ PutoMalunggay.Tambayan</h1>
+
+<!-- Members Section -->
+<div class="section">
+<h2>👥 Members</h2>
+<input type="text" id="memberName" placeholder="Name">
+<input type="text" id="memberRole" placeholder="Role (optional)">
+<button onclick="addMember()">Add Member</button>
+<ul id="memberList"></ul>
+</div>
+
+<!-- Topics Section -->
+<div class="section">
+<h2>📝 Topics</h2>
+<input type="text" id="topicInput" placeholder="Enter study topic">
+<button onclick="addTopic()">Add Topic</button>
+<ul id="topicList"></ul>
+</div>
+
+<!-- Schedule Section -->
+<div class="section">
+<h2>📅 Schedule</h2>
+<input type="text" id="scheduleTopic" placeholder="Topic">
+<input type="date" id="scheduleDate">
+<input type="time" id="scheduleTime">
+<button onclick="addSchedule()">Add Schedule</button>
+<div id="scheduleList"></div>
+</div>
+
+<!-- Quiz Section -->
+<div class="section">
+<h2>❓ Quiz Time</h2>
+<input type="text" id="quizQuestion" placeholder="Enter question">
+<input type="text" id="quizAnswer" placeholder="Correct answer">
+<button onclick="addQuiz()">Add Quiz</button>
+<div id="quizList"></div>
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
